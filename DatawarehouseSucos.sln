@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatawarehouseSucos", "DatawarehouseSucos.sqlproj", "{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "CargaDataWarehouse", "..\CargaDataWarehouse\CargaDataWarehouse.dtproj", "{480A8D0E-C562-4216-A0E7-8303C4A19B54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Any CPU = Azure|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Azure|Any CPU.Deploy.0 = Release|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B185D3-B74D-48DF-B808-9DE1C4D1D4CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Azure|Any CPU.ActiveCfg = Azure
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Azure|Any CPU.Build.0 = Azure
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Debug|Any CPU.ActiveCfg = Development
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Debug|Any CPU.Build.0 = Development
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Development|Any CPU.ActiveCfg = Development
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Development|Any CPU.Build.0 = Development
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Release|Any CPU.ActiveCfg = Azure
+		{480A8D0E-C562-4216-A0E7-8303C4A19B54}.Release|Any CPU.Build.0 = Azure
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4358702-CB7D-4AA5-9472-0D0D43BA7426}
+	EndGlobalSection
+EndGlobal
